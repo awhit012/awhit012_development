@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+}
+
+.sidebar{
+  clear:both;
+  border: 10px solid white;
+  border-radius: .5em;
+  width: 25%;
+  height: auto;
+  font-family: Futura;
+  color: white;
+  padding: 1em;
+  margin: 2em;
+}
+div.img
+  {
+  background:url(http://partyfabrics.com/images/products/poly_silk_dupioni-black.jpg) no-repeat center center;
+  margin:2em;
+  padding: -1em;
+  border:10px solid white;
+  border-radius: .5em;
+  height:17em;
+  width:17em;
+  position: relative;
+  text-align: center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:1em;
+  border:1px solid black;
+  border-radius: .5em;
+  }
+div.img a:hover img
+  {
+  border:1px solid black;
+  border-radius: .5em;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:10em;
+  margin:1em;
+  border-radius: .5em;
+  }
+
+
+
+img {
+  height: 300px;
+  width: auto;
+  border-radius: .5em;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+img:hover {
+  width: auto;
+  height: 310px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/blog_template.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3 copy/css/font-awesome.css">
+    <title>Technical Blog</title>
+  </head>
+  
+  <body>
+    <header><h1 class="header">t3chn1ca1 bl0g</h1>
+      <h2 class="header">Classes</h2></header>
+    <img class='my_pic' src="http://brainchomp.files.wordpress.com/2013/10/cropped-webpic.jpg" alt="pic of me">
+    
+    <div class='sidebar'>
+      <ul class='icon_section'>
+            <li class='icon'><a href='https://github.com/awhit012'<i class="fa fa-github-alt fa-4x"></i></a></li>
+            <li class='icon'><a href='https://twitter.com/ChompTheFuture'<i class="fa fa-twitter fa-4x"></i></a></li>
+            <li class='icon'><a href='mailto:awhit012@gmail.com'><i class="fa fa-envelope fa-4x"></i></a></li>
+        </ul>
+    </div>
+    
+    <article>
+    <h2>Everything is an object in Ruby</h2>
+      <p>Ruby is what is called an Object Oriented programming language. Everything in Ruby is an "object", which means that it is an entity that the computer knows about, and that it has attributes, or data attached to it. </p>
+      <img src="classes_1.png">
+      <p> In this example we have an array, or list of tricks that I can do on a skateboard asigned to the variable 'my_tricks'. Each trick on the list is an object, the list is an object, and the variable that holds the list is an object that holds the list. What about classes?</p>
+      <img src="classes_2.png">
+      
+      <h4>Classes are what they sound like</h4>
+      <p>In the example above we have created a function difficult? that checks if a trick is difficult or not, based on whether or not it is in my_tricks. We also have a function 'initialize' that creates class variables. All of this is sitting in the class 'Skateboarding.' Classes are what they sound like. They are a way of grouping similar objects together for a purpose. In this case we are grouping two functions and a list all having to do with skateboarding under the 'Skateboarding' class. Since that is everything it doesn't seem to matter much, but what if we complicate this a little more.</p>
+      <img src="classes_3.png">
+      <p>Now we have two classes, Skateboarding and Magic. Both have tricks, a function to determine difficulty and a function to learn tricks. We are repeating ourselves a lot! This is not the DRY way! Classes can inherit from other classes. This is better: </p>
+      <img src="classes_4.png">
+      <p>This is a taste of what classes can do. </p>
+
+    </article>
+    <footer>Thanks for reading! Created by Alex White 2014
+    </footer>
+  </body>
+</html>

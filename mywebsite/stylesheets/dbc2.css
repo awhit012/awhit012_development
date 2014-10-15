@@ -1,0 +1,80 @@
+body{
+	padding:10px;
+	border:5px;
+	margin:5px;
+	background-color: #184730;
+}
+
+#content{
+	text-align:center;
+	width:70%;
+	height:300px;
+	border-style:solid;
+	border-width:2px;
+	color:#FFE066;
+	float:left;
+}
+
+#sidebar{
+	 width:25%;
+	 height:300px; 
+	 border-style:solid; 
+	 border-width:2px;
+	 color:#FFE066;
+	 float:right;
+}
+
+#footer{
+	width:auto; 
+	height:40px; 
+	border-style:solid;
+	border-width:2px;
+	color:#FFE066;
+	clear:left;
+	clear:right;
+}
+
+a:link{
+	color:#944DDB;
+}
+
+.caption{
+	margin-top:-100px;
+	margin-left:25px;
+	position:absolute;
+	color:#944DDB;
+}
+
+#img{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+li:first-child{
+	font-family: impact;
+}
+
+li:nth-child(3){
+	font-family: impact;
+	color: #944DDB;
+<<<<<<< HEAD
+}
+
+[data-icon]:before {
+  font-family: icons; /* BYO icon font, mapped smartly */
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+}
+
+.icon-alone {
+  display: inline-block; /* Fix for clickability issue in WebKit */
+}
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+=======
+}
+>>>>>>> d0909472dc458f91e54a0f839ef65729a0c5a274

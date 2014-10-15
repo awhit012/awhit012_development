@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/blog_template.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3 copy/css/font-awesome.css">
+    <title>t3qn1qal bl0rg</title>
+  </head>
+  <body>
+    <header><h1 class="header">t3qn1qal bl0rg</h1></header>
+    <img class='my_pic' src="http://brainchomp.files.wordpress.com/2013/10/cropped-webpic.jpg" alt="pic of me">
+    
+    <div class='sidebar'>
+      <ul class='icon_section'>
+            <li class='icon'><a href='https://github.com/awhit012'><i class="fa fa-github-alt fa-4x"></i></a></li>
+            <li class='icon'><a href='https://twitter.com/ChompTheFuture'><i class="fa fa-twitter fa-4x"></i></a></li>
+            <li class='icon'><a href='mailto:awhit012@gmail.com'><i class="fa fa-envelope fa-4x"></i></a></li>
+        </ul>
+    </div>
+    
+    <article>
+    <h2>Enumerable#map</h2>
+      <p>You have a list of scores out of 100 in an array and you need to do some mathamatics on them. To do the math you need to convert them to decimals. You also want to use the scores in sentences in an email to tell your friends. To do this you need to convert all of the scores to strings.   How do you do it? You can do it with the map function. </p>
+      
+      <pre><code>
+        scores = [99, 100, 97, 65, 105, 0, 92, 100]
+        
+        scores.map(&:to_s)
+         => ["99", "100", "97", "65", "105", "0", "92", "100"] 
+
+        scores.map {|s| 0.01*s }
+         => [0.99, 1.0, 0.97, 0.65, 1.05, 0.0, 0.92, 1.0] 
+
+      </code></pre>
+      <p>The map function iterates through an array and creates a new array with it! It can do things the items in the array at the same time. The first call of scores.map above is creating a new array with all elements converted to a string.</p>
+      <p>The second call of scores.map is creating a new array with all elements multiplied by .01. The scores are converted to decimals!
+      </p>
+      <p> Pretty impressive for one line of code! </p>
+    </article>
+    <footer>Thanks for reading! Created by Alex White 2014
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/blog_template.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3 copy/css/font-awesome.css">
+    <title>Awesome Website</title>
+  </head>
+  
+  <body>
+    <header><h1 class="header">Technical Blog</h1></header>
+    <img class='my_pic' src="http://brainchomp.files.wordpress.com/2013/10/cropped-webpic.jpg" alt="pic of me">
+    <article>
+    <h2>What are the differences between relative, absolute, and fixed positioning?</h2>
+      <h4>What is positioning?</h4>
+      <p>When making a web page, you using text, specifically html, and styles using CSS into a web page. There are sections, sidebars, etc. and they may be laid out in infinite ways. The HTML, which makes up the contents of the page, is basically a list of elements in the page, like lines in a book. On a website you don't simply want a series of elements from the top to the bottom of your page! You want to arrange the page to your liking. In order to do that, you need to use positioning. </p>
+      <p>Every element on the page is a block, or essentially a rectangular space with pixels in it. That block can be positioned in a number of ways, including by designating the position as relative, absolute, and fixed.</p> 
+      <h4>Relative</h4>
+      <p>The key to understanding relative positioning is understanding that it means 'relative to itself.' If you add position:relative to a block, that alone does nothing. But if you add something like top:10px, now you are moving the element 12 px down from where it was.</p>
+      <h4>Absolute</h4>
+      <p>Absolute positioning allows you to position an item exactly where you want it to go on the page. For example
+      h1{  
+        position: absolute;
+        left: 150px;
+        top: 10px
+      }
+      will position your h1 heading 150px from the left of the page and 10px down from the top. </p>
+
+      <h4>Fixed</h4>
+      <p>Fixed positioning makes the element stay where it is in the browser regardless of if you scroll up or down. This is often used on heading with links that people might want to access from anywhere on the page.</p>
+
+      <p> Thanks for reading!</p>
+    </article>
+  </body>
+</html>

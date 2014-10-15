@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/blog_template.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3 copy/css/font-awesome.css">
+    <title>Technical Blog</title>
+  </head>
+  
+  <body>
+    <header>
+      <div><h1 class="header">Alex White's</h1>
+      <h2 class="header">Technical Bl<i class="fa fa-spinner fa-spin"></i>g</h2>
+      </div></header>
+
+      <div class= 'icons'>
+          <a href='https://github.com/awhit012'><i class="fa fa-github-alt fa-2x"></i></a>
+          <a href='https://twitter.com/ChompTheFuture'><i class="fa fa-twitter fa-2x"></i></a>
+          <a href='mailto:awhit012@gmail.com'><i class="fa fa-envelope-o fa-2x"></i></a>
+        </div>
+        
+    <article>
+    <h2>How a computer works</h2>
+    <h3>Magic! JK its input, output, logic gates, memory, and instructions!</h3>
+      <p>(In my best old timey radio voice) What is.. a <em>COMPUTER?</em> The first computers were people. Mostly women, as it happens. They would take an input of information, and also water and food. These computers used their brains, and a few rudimentary tools such as pencils, paper and slide rules as the memory and logic gates to carry out the instruction. Finally, upon completing their task, the outputs would provided on sheets of paper. </p>
+
+      <p>Now, these tasks are <em>automated</em>. A digital
+      computer takes information and electricity as its input. It uses its RAM, virtual memory and its hard disk as its memory. Its CPU, or central processing unit, contains tiny switches known as transistors that it uses as logic gates to carry out its instruction. Upon completing its task, the trusty computer prints its results to a moniter, or screen.</p>
+
+      <p>Computers are sweeping the globe, automating tasks from adding and subtracting, to more complex activity like driving a car or keeping track of contractual obligations. What will they think of next?!</p>
+
+      <h3>How does a computer work? No, really.</h3>
+      <p>That phone in your pocket, its a computer. Yes, today a computer can fit in your pocket. But it wasn't always that way. In fact, in between the biological computers (those hard working people I talked about earlier) and the advent of the digital computer, there was something else! The analogue mechanical computer! In order to understand how a computer works lets take a look at this fascinating and incredibly long video:</p>
+<iframe width="420" height="315" src="//www.youtube.com/embed/s1i-dnAH9Y4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <p>Did you watch the whole thing? Be honest. OK, well the point is a computer is something that takes inputs and instructions and gives an output. In the case of this analogue mechanical computer is for aiming the big guns on a ship. This is a complex task, as the ship and target may both me moving! This computer takes inputs of the ships speed and trajectory, as well as the speed and trajectory of its target. Using physical mechanisms, it adjusts the aim of those cannons to account for that complex movement, providing deadly accuracy. However this computer can not play a video or even connect to the web. It can only aim guns.</p>
+      <p> What about a digital computer? A digital computer runs on the same principles. However, instead of needing to design a different mechanism for every task, it can use the same pieces of hardware for possibly infinite tasks. It needs only the appropriate set of instructions, or software. For example, the following instructions tell the computer to add the numbers in an array and print it to the screen:</p>
+
+      <pre><code>
+        numbers = [99, 100, 97, 65, 105, 0, 92, 100]
+        
+        p numbers.inject{|sum,x| sum + x }
+
+      </code></pre>
+
+      <p> Understand? No? Thats OK, neither can your computer. Those instructions are in <em>Ruby</em>, a programming language. Its like an intermediary language between human and machine. A computer speaks in <em>binary</em>, or zeros and ones. A human can learn Ruby more easily than binary, so we program a computer to translate Ruby into Binary. If a human can translate ruby into english, and vice versa, he or she can get a good job.</p>  
+
+      <p>Binary code is like a light switch being on or off. 1 for on, 0 for off. In a modern computer, instead of a light switch it is a transistor, which is a tiny switch. The switches can be set up to act as logic gates. Here's a quick explanation of logic gates from Reddit user DubiousDoctor:</p>
+
+      <pre><code>Consider an AND gate. It takes two input and gives one output. If both inputs are on then it outputs on otherwise it outputs off.
+ 0--->|AND|--->0
+ 0--->|___|
+
+ 1--->|AND|--->0
+ 0--->|___|
+
+ 0--->|AND|--->0
+ 1--->|___|
+
+ 1--->|AND|--->1
+ 1--->|___|</code></pre>
+      <p>Combine an AND gate with other similar gates, OR, NOT, NAND, NOR, XOR, and XNOR, feed in the right instructions, and a place to store memory and you have quite the powerful machine indeed!</p>
+
+      <h5>Reminder: I'm still doing the old timey radio voice. Keep reading it like that. It is essential to your understanding.</h5>
+
+      <h2>What is Computer Memory? I forget.</h2>
+      <p>(Sensible chuckle) In fact I do. Fortunately a computer can remember this for me! Wait right here, I'll go ask it. </p>
+      <p><em>(loud typing sounds)</em></p>
+      <p>Ah, thank you Wikipedia for remembering this for me. We biological computers are still superior to our new digital ones for many things, but holding vast quantities of data is not one of them:<p> 
+      <p>"In computing, memory refers to the physical devices used to store programs (sequences of instructions) or data (e.g. program state information) on a temporary or permanent basis for use in a computer or other digital electronic device."</p>
+      <p>All information in a computer is in in zeros and ones, or an switch being on or off. A computers memory stores information in this binary form, in tiny cells that can store one bit, being either on or off. When the computer needs that information, it can read it off of these cells. </p>
+      <p>Well thats how computers work in a nutshell. I hope you all enjoyed yourselves, and maybe even learned something. See you next time on Alex's technical blog. Sayonara.</p>
+
+    </article>
+
+    <footer>Thanks for reading! Created by Alex White 2014
+    </footer>
+  </body>
+</html>

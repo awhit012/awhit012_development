@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/blog_template.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3 copy/css/font-awesome.css">
+    <title>Technical Blog</title>
+  </head>
+  
+  <body>
+    <header><h1 class="header">Technical Blog</h1>
+      <h2 class="header">Optimizing for big data</h2></header>
+    <img class='my_pic' src="http://brainchomp.files.wordpress.com/2013/10/cropped-webpic.jpg" alt="pic of me">
+    
+    <div class='sidebar'>
+      <ul class='icon_section'>
+            <li class='icon'><a href='https://github.com/awhit012'<i class="fa fa-github-alt fa-4x"></i></a></li>
+            <li class='icon'><a href='https://twitter.com/ChompTheFuture'<i class="fa fa-twitter fa-4x"></i></a></li>
+            <li class='icon'><a href='mailto:awhit012@gmail.com'><i class="fa fa-envelope fa-4x"></i></a></li>
+        </ul>
+    </div>
+    
+    <article>
+    <h4>Clustered Indexes, Temporary Tables, and Good Design</h2>
+      <p>From Stack Overflow user csano: "You have two tables, Customer and Order:
+
+Customer
+----------
+ID
+Name
+Address
+
+Order
+----------
+ID
+CustomerID
+Price
+If you wish to quickly retrieve all orders of one particular customer, you may wish to create a clustered index on the "CustomerID" column of the Order table. This way the records with the same CustomerID will be physically stored close to each other on disk (clustered) which speeds up their retrieval.""
+
+</p>
+      <p>With a huge database of millions of datapoints, queries can start taking a long time. Especially if you are working with multiple tables. A clustered index is a way to speed this up, as described above.</p>
+      <p> If you are interested in a particular set of datapoints in a database, and do not need to iterate through every point, you can create a temporary table that only includes the data you are working with. For example, say you have a number of linked indexes about your customers. You have millions of customers! (Yay!) You know things about them including their age, locations, language preference, as well as a TON of information about their buying history. Today you want to run a number of queries to see what you can learn about your customers over 65, in North America, and what kind of patterns you can find in their buying history. Rather than have each query iterate through the entirity of your tables, create a temporary table that only contains the information you plan on working with. It will take extra time up front, but could pay off if you are doing a number of queries.</p>
+      <p>Most importantly, if you are creating a database, make sure you are designing it well. Even if you don't expect your database to get huge, treat it as though it will. Limits on types of data to go in fields, connecting tables in the most effecient way possible, these  things will pay off hugely down the road when you are sifting through your data.</p>
+      
+
+    </article>
+    <footer>Thanks for reading! Created by Alex White 2014
+    </footer>
+  </body>
+</html>

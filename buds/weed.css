@@ -1,0 +1,42 @@
+#main, h1, hr {
+  color: #3A523A;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1em;
+}
+
+table, th, td {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+}
+#stats {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+}
+#main {
+    position: relative;
+    margin: 5%;
+}
+
+img {
+    width: 30%;
+}

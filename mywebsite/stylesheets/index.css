@@ -1,0 +1,83 @@
+header {
+    text-align: left; 
+    font-family: Ubuntu;
+    color: #CCCCFF;
+    background-color: black;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    border-top: 16px solid #d9b860;
+    border-bottom: 16px solid #d9b860;
+    margin-left: -8px;
+    margin-right: -10px;
+    padding-left: 2em;
+    width: auto;
+
+}
+
+
+body {
+	background-color: lightgray;
+	color: #222;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 1.4em;
+	padding-bottom:4em;
+}
+
+#sidebar {
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	text-transform: small;
+	float: right;
+}
+
+.icons {
+    float: left;
+    margin: 5%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+article {
+    font-family: Garamond, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+
+#me {
+	float: left;
+	width: 30%;
+}
+
+#site {
+	float: right;
+	width: 30%;
+}
+
+footer {
+    border-top: 8px solid #d9b860;
+    border-bottom: 8px solid #d9b860;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Ubuntu;
+    color: #CCCCFF;
+    background-color: black;
+    clear: both;
+}    
+
+

@@ -1,0 +1,50 @@
+Notes on puddle tech:
+
+SiftScience
+    includes code from
+        -CryptoJS
+        -PluginDetect
+        -which are both javascript libraries
+
+MixPanel
+    -tracking of events
+    -with attributes
+    -tied to users
+    -email notifications
+    -js library
+
+Google Analytics
+    -tracks a ton of stuff
+    -makes it pretty for you to see
+
+Segment.io
+    -integrates mixpanel and google analytics with ease
+
+Facebook OAuth
+
+Optimizely
+    -A/B testing
+
+
+
+
+Questions for JC:
+
+What has Puddle been up to since we last spoke?
+
+What are the goals for the rest of the year?
+
+Regarding credits, can they be withdrawn like cash? I'm guessing not. Does that disincentivize putting a lot of money into puddles? If so, was that the intention?
+
+What is the dev team like?
+    -how many people?
+    -what are they working on?
+    -what challenges have they faced?
+    -What's the workflow like?
+
+What is the mobile situation?
+
+
+
+
+
