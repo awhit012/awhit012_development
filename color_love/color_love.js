@@ -35,7 +35,7 @@ $(document).ready(function () {
     if (hoverCount == 10 ) {
       $('table').remove();
       $('body').css( "background-color", "#FF1E00" );
-      $('body').append( "<h1 class='big-title'>booya color love</h1>" );
+      $('body').append( "<h1 class='big-title1'>booya <h1 class='big-title2'> color love</h1></h1>" );
 
     }
   }

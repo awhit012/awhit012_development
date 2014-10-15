@@ -94,9 +94,20 @@ tr {
          -o-transform-origin: 100% 100%;
             transform-origin :100% 100%;
 }
+h1 {
+  font-size: 10em;
+  margin: auto;
+  margin-top: .2em;
+  color: #05B2DA;
+  text-align: center;
+}
 
+.big-title1 {
+  font-family: lobster;
+}
 
-.big-title {
+.big-title2 {
+  font-family: lato;
   font-size: 10em;
   margin: auto;
   color: #05B2DA;
